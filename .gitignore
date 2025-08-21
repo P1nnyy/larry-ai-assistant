@@ -1,0 +1,19 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environments
+.venv/
+env/
+venv/
+
+# Ignore model files (too large for GitHub)
+language model/
+*.gguf
+
+# Ignore system files
+.DS_Store
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
